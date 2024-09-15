@@ -20,8 +20,8 @@ This application is designed to manage and annotate videos. Users can register, 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/video-annotation-app.git
-   cd video-annotation-app
+   git clone git clone git@github.com:civicRJ/Video_Annotation.git
+   cd Video_Annotation/video-annotation-frontend
    ```
 
 2. **Install Dependencies**:
@@ -36,7 +36,15 @@ This application is designed to manage and annotate videos. Users can register, 
 
    This will start the application on `http://localhost:3000`.
 
-4. **Backend Setup** (if applicable):
+4. **Backend Setup** (in a new terminal):
+   ```bash
+   cd Video_Annotation
+   python manage.py makemigrations
+   python manage.py migrate
+   (install any dependencies in not there)
+   python manage.py runserver
+   ```
+6. 
    Ensure your backend server is running on `http://localhost:8000` or update the API URLs in the code.
 
 ## Components
