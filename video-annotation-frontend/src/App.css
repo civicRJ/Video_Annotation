@@ -1,0 +1,47 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.navbar-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+}
+
+.navbar-button:hover {
+  background-color: #21a1f1;
+}
+
+.navbar-button.active {
+  background-color: #1e90ff;
+}
